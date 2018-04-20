@@ -1,0 +1,4 @@
+NFS:
+  rootDir: share
+  ip: 192.168.174.128
+  path: nfs://${NFS.ip}/${NFS.rootDir}/
